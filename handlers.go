@@ -12,3 +12,7 @@ func HandleRoot(w http.ResponseWriter, r *http.Request) {
 func HandleHome(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "You are in API endpoint")
 }
+
+func HandleAbout(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "You are in About section")
+}

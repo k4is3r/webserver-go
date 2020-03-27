@@ -7,5 +7,6 @@ func main() {
 	fmt.Println("Server Running")
 	server.Handle("/", HandleRoot)
 	server.Handle("/api", HandleHome)
+	server.Handle("/about", HandleAbout)
 	server.Listen()
 }
